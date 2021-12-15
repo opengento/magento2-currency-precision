@@ -1,0 +1,75 @@
+{
+    "name": "opengento/module-currency-precision",
+    "description": "This module aims to help merchants to manage easily their currency precision in Magento 2.",
+    "keywords": [
+        "php",
+        "magento",
+        "magento2",
+        "module",
+        "extension",
+        "currency",
+        "precision",
+        "money",
+        "locale",
+        "format"
+    ],
+    "type": "magento2-module",
+    "require": {
+        "php": "^7.4||^8.0",
+        "ext-intl": "*",
+        "magento/framework": "^103.0",
+        "magento/module-backend": "^102.0",
+        "magento/module-config": "^101.0",
+        "magento/module-store": "^101.0.0",
+        "magento/module-directory": "^100.3.0"
+    },
+    "require-dev": {
+        "magento/magento-coding-standard": "^5",
+        "magento/marketplace-eqp": "^4.0",
+        "roave/security-advisories": "dev-master"
+    },
+    "suggest": {
+        "opengento/module-document-product-link": "This module aims to help merchants to link their documents to products in Magento 2.",
+        "opengento/module-document-product-search": "This module aims to make documents searchable with product keywords in Magento 2.",
+        "opengento/module-document-search": "This module aims to make documents searchable for customers in Magento 2.",
+        "opengento/module-document-widget": "This module aims to help merchants to manage easily their documents on the Magento 2 storefront.",
+        "opengento/module-document-restrict": "This module aims to restrict documents by type in Magento 2."
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "homepage": "https://github.com/opengento/magento2-currency-precision",
+    "authors": [
+        {
+            "name": "Hirokazu Nishi",
+            "email": "nishi@veriteworks.co.jp",
+            "homepage": "https://veriteworks.co.jp/",
+            "role": "original developer"
+        },
+        {
+            "name": "Opengento Team",
+            "email": "opengento@gmail.com",
+            "homepage": "https://opengento.fr/",
+            "role": "lead"
+        },
+        {
+            "name": "Thomas Klein",
+            "email": "thomaskein876@gmail.com",
+            "homepage": "https://www.linkedin.com/in/thomas-klein/",
+            "role": "maintainer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/opengento/magento2-currency-precision",
+        "issues": "https://github.com/opengento/magento2-currency-precision/issues"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Opengento\\CurrencyPrecision\\": ""
+        }
+    }
+}

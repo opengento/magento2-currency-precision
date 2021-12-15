@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © OpenGento, All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Directory\Model\Currency">
+        <plugin name="Opengento_CurrencyPrecision::modify_precision" type="Opengento\CurrencyPrecision\Plugin\Directory\Model\CurrencyPrecisionFormatting"/>
+    </type>
+    <type name="Magento\Directory\Model\PriceCurrency">
+        <plugin name="Opengento_CurrencyPrecision::modify_round" type="Opengento\CurrencyPrecision\Plugin\Directory\Model\CurrencyRounding"/>
+    </type>
+    <type name="Magento\Framework\Locale\Format">
+        <plugin name="Opengento_CurrencyPrecision::locale_number_format" type="Opengento\CurrencyPrecision\Plugin\Locale\LocalizedFormat"/>
+    </type>
+</config>
