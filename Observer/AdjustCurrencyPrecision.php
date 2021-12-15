@@ -8,8 +8,8 @@ declare(strict_types=1);
 namespace Opengento\CurrencyPrecision\Observer;
 
 use Magento\Framework\DataObject;
-use Magento\Framework\Event\ObserverInterface;
 use Magento\Framework\Event\Observer;
+use Magento\Framework\Event\ObserverInterface;
 use Opengento\CurrencyPrecision\Model\CurrencyRounding;
 
 /**

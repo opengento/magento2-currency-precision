@@ -7,8 +7,8 @@ declare(strict_types=1);
 
 namespace Opengento\CurrencyPrecision\Model\Config;
 
-use Magento\Store\Model\ScopeInterface;
 use Magento\Framework\App\Config\ScopeConfigInterface;
+use Magento\Store\Model\ScopeInterface;
 
 /**
  * System configuration of currencies rounding.
