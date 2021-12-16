@@ -8,6 +8,8 @@
 
 This module aims to help merchants to manage easily their currency precision in Magento 2.
 
+## DISCLAIMER
+
 ***Initially this module was developed by Hirokazu Nishi in the scope of the magento/magento2-jp project.***
 
 > Module adds more accurate handling of currencies precision so currencies will be always rounded to minor subunits precision. 
