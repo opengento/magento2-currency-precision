@@ -1,7 +1,9 @@
 # Currency Precision Module for Magento 2
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/opengento/module-currency-precision.svg?style=flat-square)](https://packagist.org/packages/opengento/module-currency-precision)
-[![License: MIT](https://img.shields.io/github/license/opengento/magento2-currency-precision.svg?style=flat-square)](./LICENSE)
+ https://packagist.org/packages/opengento/module-currency-precision
+[![License: OSL](https://img.shields.io/github/license/opengento/magento2-currency-precision.svg?style=flat-square)](./LICENSE)
+[![License: AFL](https://img.shields.io/github/license/opengento/magento2-currency-precision.svg?style=flat-square)](./LICENSE_AFL)
 [![Packagist](https://img.shields.io/packagist/dt/opengento/module-currency-precision.svg?style=flat-square)](https://packagist.org/packages/opengento/module-currency-precision/stats)
 [![Packagist](https://img.shields.io/packagist/dm/opengento/module-currency-precision.svg?style=flat-square)](https://packagist.org/packages/opengento/module-currency-precision/stats)
 
