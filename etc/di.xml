@@ -15,4 +15,23 @@
     <type name="Magento\Framework\Locale\Format">
         <plugin name="Opengento_CurrencyPrecision::locale_number_format" type="Opengento\CurrencyPrecision\Plugin\Locale\LocalizedFormat"/>
     </type>
+
+    <type name="Magento\Tax\Pricing\Adjustment">
+        <plugin name="Opengento_CurrencyPrecision::modify_adjustment" type="Opengento\CurrencyPrecision\Plugin\Tax\Pricing\ModifyAdjustment"/>
+    </type>
+    <type name="Magento\Paypal\Model\Api\Nvp">
+        <plugin name="Opengento_CurrencyPrecision::modify_round" type="Opengento\CurrencyPrecision\Plugin\PayPal\Api\RoundAmount"/>
+    </type>
+    <type name="Magento\SalesRule\Model\Rule\Action\Discount\DiscountInterface">
+        <plugin name="Opengento_CurrencyPrecision::round_discount" type="Opengento\CurrencyPrecision\Plugin\SalesRule\RoundDiscount" sortOrder="10"/>
+    </type>
+    <type name="Magento\Tax\Model\Sales\Total\Quote\CommonTaxCollector">
+        <plugin name="Opengento_CurrencyPrecision::round_quote_item_price" type="Opengento\CurrencyPrecision\Plugin\Tax\RoundQuoteItemPrice" sortOrder="10"/>
+    </type>
+    <type name="Magento\Tax\Model\Sales\Total\Quote\Subtotal">
+        <plugin name="Opengento_CurrencyPrecision::round_subtotal" type="Opengento\CurrencyPrecision\Plugin\Tax\RoundSubtotal" sortOrder="10"/>
+    </type>
+    <type name="Magento\Tax\Model\Sales\Total\Quote\Tax">
+        <plugin name="Opengento_CurrencyPrecision::round_tax" type="Opengento\CurrencyPrecision\Plugin\Tax\RoundTaxAmount" sortOrder="10"/>
+    </type>
 </config>
