@@ -66,7 +66,8 @@ final class RoundingMode implements OptionSourceInterface
      */
     public const UP = 'up';
 
-    private array $options = [];
+    /** @var array|null  */
+    private ?array $options = null;
 
     /**
      * List available currency rounding modes.
